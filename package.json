@@ -1,0 +1,32 @@
+{
+  "name": "instacats",
+  "version": "1.0.0",
+  "description": "App to share photos of cats",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kliver98/Instacats.git"
+  },
+  "author": "Kliver Giron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kliver98/Instacats/issues"
+  },
+  "homepage": "https://github.com/kliver98/Instacats#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "svelte": "^3.46.4",
+    "svelte-loader": "^3.1.2",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
